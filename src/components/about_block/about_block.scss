@@ -2,7 +2,42 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-flow: column;
     .iframe{
         margin: 150px 0;
+    }
+    .paragraph{
+        width: 65%;
+        margin: 100px 70px;
+        display: flex;
+        justify-content: space-around;
+        img{
+            width: 25%;
+            height: 25%;
+            margin: 1em 3em;
+        }
+        h2{
+            margin: .1em 0 .5em 0;
+        }
+        .paragraph_text{
+            display: flex;
+            flex-flow: column;
+            align-items: flex-start;
+            width: 60%;
+            font-size: 21px;
+        }
+        .p__buttons{
+            display: flex;
+            width: 70%;
+            justify-content: space-between;
+            margin: 1.7em 0 ;
+            .p_button{
+                background-color: #191919;
+                color: #fff;
+            }
+            .p_button:hover{
+                background-color: #000;
+            }
+        }
     }
 }
