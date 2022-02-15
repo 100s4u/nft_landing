@@ -31,7 +31,7 @@ export const Introduce = () => {
             </div>
           </div>
         </div>
-          <a href="#" className='button intro_button'>Duis adipisicing reprehenderit mollit enim.</a>
+          <a href="#" className='button intro_button'>Duis adipisicing reprehenderit.</a>
       </div>
     </div>
   )

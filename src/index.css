@@ -41,6 +41,9 @@ h4{
   font-family: Montserrat;
   font-size: 21px;
 }
+span{
+  line-height: 1.5em;
+}
 
 .row{
   width: 70vw;
