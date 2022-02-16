@@ -4,6 +4,7 @@
     background-color: aquamarine;
     color: #fff;
     background: url(https://images.pexels.com/photos/10211630/pexels-photo-10211630.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center;
+    background-size: cover;
     .content{
         background-color: #00000050;
         display: flex;
@@ -52,6 +53,43 @@
         }
         .intro_button{
             margin: 1em 0;
+        }
+    }
+}
+@media screen and (max-width: 1020px) {
+    .introduce_container{
+        height: auto;
+        .content{
+            padding: 50px 0;
+            height: 100%;
+            h1{
+                margin: .5em 0;
+            }
+            .cards_container{
+                width: 100%;
+                flex-flow: column;
+                align-items: center;
+                margin: 45px;
+                .card{
+                    width: 70vw;
+                    height: 60vh;
+                    margin-bottom: 10vw;
+                    img{
+                        align-self: center;
+                        min-width: auto;
+                        width: 50vw;
+                    }
+                    h3{
+                        font-size: 30px;
+                    }
+                    .card_text{
+                        top: 40%;
+                    }
+                }
+            }
+        }
+        .intro_button{
+            margin: 12em 0;
         }
     }
 }

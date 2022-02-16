@@ -17,7 +17,7 @@ body {
   font-family: Roboto-Regular;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: rgb(19, 19, 19);
+  color: #131313;
 }
 
 code {
@@ -46,6 +46,7 @@ span{
 }
 
 .row{
+  min-width: 1024px;
   width: 70vw;
   margin: 0 auto;
 }
@@ -80,4 +81,27 @@ span{
   font-size: 16px;
   color: #fff;
   margin: 0 1em;
+}
+@media screen and (max-width: 1024px) {
+  h1{
+    font-size: 40px;
+  }
+  h2{
+    font-size: 30px;
+  }
+  h3{
+    font-size: 21px;
+  }
+  h4{
+    font-size: 14px;
+  }
+  span{
+    font-size: 14px;
+  }
+  .button, .link, .link_underline{
+    font-size: 16px;
+  }
+  .row{
+    min-width: 90vw;
+  }
 }

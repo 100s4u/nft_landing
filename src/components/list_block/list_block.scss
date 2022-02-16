@@ -1,0 +1,73 @@
+.list_block{
+    background-color: #eee;
+    .row{
+        .list_block__container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-flow: column;
+            h2{
+                margin: 2em 0;
+            }
+            .items{
+                width: 80%;
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                h4{
+                    margin: 2em 0;
+                }
+                .item{
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-start;
+                    width: 50%;
+                    img{
+                        width: 30%;
+                        margin: 5%;
+                    }
+                    .item_content{
+                        display: flex;
+                        flex-flow: column;
+                        align-items: flex-start;
+                        margin: 5%;
+                        h3{
+                            background-color: #131313;
+                            color: #fff;
+                            padding: .1em .2em;
+                        }
+                        span{
+                            font-size: 18px;
+                            margin: .6em .2em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 1024px) {
+    .list_block{
+        .row{
+            .list_block__container{
+                text-align: center;
+                .items{
+                    width: 90%;
+                    flex-flow: column;
+                    .item{
+                        flex-flow: column;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100%;
+                        img{
+                            width: 35%;
+                        }
+                        .item_content{
+                            align-items: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

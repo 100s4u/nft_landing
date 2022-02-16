@@ -41,3 +41,19 @@
         }
     }
 }
+@media screen and (max-width: 1024px) {
+    .mBlock{
+        .row{
+            .mBlock_container{
+                flex-flow:column;
+                .mBlock_content{
+                    text-align: center;
+                    align-items: center;
+                    span{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}

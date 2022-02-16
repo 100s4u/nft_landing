@@ -4,10 +4,12 @@
     justify-content: center;
     flex-flow: column;
     .iframe{
+        width: 1024px;
+        height: 560px;
         margin: 150px 0;
     }
     .paragraph{
-        width: 65%;
+        width: 70%;
         margin: 100px 70px;
         display: flex;
         justify-content: space-around;
@@ -29,14 +31,39 @@
         .p__buttons{
             display: flex;
             width: 70%;
-            justify-content: space-between;
-            margin: 1.7em 0 ;
+            justify-content: space-around;
+            margin: 1em 0;
             .p_button{
                 background-color: #191919;
                 color: #fff;
+                margin: .5em .2em;
             }
             .p_button:hover{
                 background-color: #000;
+            }
+        }
+    }
+}
+@media screen and (max-width: 1024px) {
+    .about_container{
+        .iframe{
+            width: 90vw;
+            height: 50vw;
+            margin: 50px 0;
+        }
+        .paragraph{
+            width: 90%;
+            margin: 50px 70px;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            img{
+                order: -1;
+            }
+            .paragraph_text{
+                align-items: center;
+                width: 90%;
             }
         }
     }

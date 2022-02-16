@@ -30,3 +30,13 @@
         }
     }
 }
+@media screen and (max-width: 1024px) {
+    .main_container{
+        height: 105vh;
+        .content{
+            .hello_text{
+                margin: 0 10%;
+            }
+        }
+    }
+}
